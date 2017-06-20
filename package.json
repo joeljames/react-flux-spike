@@ -1,0 +1,28 @@
+{
+  "name": "react-flux-spike",
+  "version": "1.0.0",
+  "description": "React flux spike",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joeljames/react-flux-spike.git"
+  },
+  "keywords": [
+    "react",
+    "flux"
+  ],
+  "author": "Joel James",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joeljames/react-flux-spike/issues"
+  },
+  "homepage": "https://github.com/joeljames/react-flux-spike#readme",
+  "dependencies": {
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-open": "^2.0.0"
+  }
+}

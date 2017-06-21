@@ -31,7 +31,7 @@ var AuthorApi = {
         } else {
             // Just simulate creation here
             author.id = _generateId(author);
-            authors.push(author);
+            authors.authors.push(author);
         }
         return _clone(author);
     },

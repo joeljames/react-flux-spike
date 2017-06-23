@@ -13,16 +13,15 @@ var _clone = function(item) {
 
 var AuthorApi = {
     getAllAuthors: function() {
-        return _clone(authors.authors);
+        return authors.authors;
     },
 
     getAuthorById: function(id) {
-        var author = _.find(authors, {id: id});
-        return _clone(author);
+        var author = _.find(authors.authors, {id: id});
+        return author;
     },
 
     saveAuthor: function(author) {
-        //pretend a ajax call to web api is made here
         console.log('Pretend this just saved the author to DB via AJAX call...');
 
         if (author.id) {
@@ -33,7 +32,7 @@ var AuthorApi = {
             author.id = _generateId(author);
             authors.authors.push(author);
         }
-        return _clone(author);
+        return author;
     },
 
     deleteAuthor: function(id) {
